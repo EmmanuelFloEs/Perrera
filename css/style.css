@@ -1,0 +1,66 @@
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1); 
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(1, 29, 15, 0.5); 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="text"],
+form input[type="text"],
+form input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 12px;
+    margin-top: 5px;
+    border: 2px solid #1d1c1c; 
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+form input[type="submit"] {
+    background-color: #099710; 
+    color: #fff; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+form input[type="reset"] {
+    background-color: #830818; 
+    color: #fff; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.btn{
+    background-color: #2b58de;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    border: none;
+}
+
+.upload-more-btn{
+    margin-top: 20px;
+    text-decoration: none;
+}
+h1{
+    color: black;
+}
